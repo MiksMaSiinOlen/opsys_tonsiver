@@ -18,4 +18,7 @@ Vastused praktikumi küsimustele:
 
 6. setuid ja setgid kasutamine võib tõesti vähendada süsteemi turvalisust, sest need käsud annavad protsessidele vastavalt protsessi omaniku või protsessi grupi õigused. Niimoodi võivad mõnikord kindlad õigused süsteemis sattuda valedesse kätesse.
 7. peeter, opetaja
-8. 
+8. Õiguste loetelu lõppu on tekkinud '+' märk. See ilmselt vihjab sellele, et leidub peale omaniku veel gruppe (direktori grupp antud juhul), kellel on 'others' alla minevatest kasutajatest erinevad õigused.
+<img width="371" alt="8" src="https://user-images.githubusercontent.com/92918498/195666819-f4e0d3d7-fba1-4ea4-8d7a-172761d09a92.png">
+
+9. chattr +i parameetriga faili sisu ei saa muuta mitte keegi. Et sellist faili kustutada, peab talt selle parameetri kõigepealt eemaldama. Seda saab teha käsuga 'sudo chattr -i testfail-2'. Pärast seda saab seda faili kustutada nagu iga teist, käsuga 'rm testfail-2'.
