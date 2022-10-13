@@ -14,3 +14,8 @@ Vastused praktikumi küsimustele:
 <img width="369" alt="4" src="https://user-images.githubusercontent.com/92918498/195652554-c9bfd2a6-0066-4658-9017-1d78c71f2095.png">
 
 5. 
+<img width="316" alt="5" src="https://user-images.githubusercontent.com/92918498/195660350-c22d444a-5b6f-448d-ad33-5d2dcf9276ee.png">
+
+6. setuid ja setgid kasutamine võib tõesti vähendada süsteemi turvalisust, sest need käsud annavad protsessidele vastavalt protsessi omaniku või protsessi grupi õigused. Niimoodi võivad mõnikord kindlad õigused süsteemis sattuda valedesse kätesse.
+7. peeter, opetaja
+8. 
