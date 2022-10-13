@@ -1,0 +1,151 @@
+    1  sudo apt-get install virtualbox-guest-utils
+    2  lsbk
+    3  lsblk
+    4  sudo partitionmanager
+    5  sudo install partitionmanager
+    6  sudo add-apt-repository universe
+    7  sudo apt update
+    8  sudo install partitionmanager
+    9  sudo partitionmanager
+   10  sudo pvcreate /dev/sdb
+   11  vgextend vgdata /dev/sdb
+   12  sudo vgextend vgdata /dev/sdb
+   13  sudo vg_uku /dev/sdb
+   14  sudo vgextend vg_uku /dev/sdb
+   15  sudo lvextend -l +100%FREE lvroot
+   16  sudo lvextend -l +100%FREE dev/lvroot
+   17  sudo lvextend -l +100%FREE /lvroot
+   18  sudo lvextend -l +100%FREE /dev/lvroot
+   19  sudo lvextend -l +100%FREE /lvroot
+   20  sudo lvextend -l +100%FREE -n lvroot vg_uku
+   21  sudo lvextend -l +100%FREE lvroot vg_uku
+   22  sudo vgdisplay
+   23  sudo lvdisplay
+   24  lsbk
+   25  lsblk
+   26  df -h
+   27  sudo lvextend -l +100%FREE lvroot vg_uku
+   28  lvextend --help
+   29  lvextend 100%FREE -n lvroot vg_uku
+   30  sudo lvextend 100%FREE -n lvroot vg_uku
+   31  sudo lvextend -l 100%FREE -n lvroot vg_uku
+   32  sudo lvextend lvroot 100%FREE
+   33  sudo lvextend -l 100%FREE -n lv_uku/lvroot
+   34  sudo lvextend -l 100%FREE -n vg_uku/lvroot
+   35  ps
+   36  ps -e | wc -l
+   37  pstree 0
+   38  ps -aux | wc -l	
+   39  ps aux | wc -l	
+   40  ps aux
+   41  200~ps -eo user=|sort|uniq -c
+   42  ps -eo user=|sort|uniq -c
+   43  uptime
+   44  !
+   45  echo !
+   46  man usermod
+   47  sudo addgroup salajane
+   48  sudo addgroup tavaline
+   49  sudo usermod -a -G tavaline,salajane uku
+   50  id uku
+   51  sudo adduser joosep
+   52  sudo usermod -a -G tavaline joosep
+   53  id joosep
+   54  mkdir Kaust1 Kaust2 Kaust3
+   55  touch Kaust1/k1a1.txt Kaust1/k1a2.txt Kaust2/k2a1.txt
+   56  touch script.sh
+   57  sh script.sh
+   58  chmod a=x script.sh
+   59  sh script.sh
+   60  chmod a=rx script.sh
+   61  sh script.sh
+   62  mkdir majasiseseks-kasutamiseks
+   63  cd majasiseseks-kasutamiseks
+   64  nano uusfail.txt
+   65  ls -la
+   66  cat uusfail.txt
+   67  chmod a= uusfail.txt
+   68  cat uusfail.txt
+   69  sudo chown joosep:tavaline uusfail.txt
+   70  ls -la
+   71  sudo chown root:tavaline .
+   72  sudo adduser uku tavaline
+   73  id uku
+   74  ls -la
+   75  cat uusfail.txt
+   76  chmod a=r uusfail.txt
+   77  id uku
+   78  ls -la
+   79  cat uusfail.txt
+   80  ls -l uusfail.txt
+   81  sudo chmod a=r uusfail.txt
+   82  cat uusfail.txt
+   83  sudo adduser opetaja
+   84  sudo su - opetaja
+   85  sudo apt install gcc
+   86  sudo su - opetaja
+   87  sudo adduser jukuisa
+   88  sudo su - jukuisa
+   89  sudo chmod o+x /home/opetaja
+   90  sudo u - jukuisa
+   91  sudo su - jukuisa
+   92  sudo userdel opetaja
+   93  sudo adduser opetaja
+   94  sudo su - opetaja
+   95  sudo su - jukuisa
+   96  sudo su - opetaja
+   97  sudo su - jukuisa
+   98  sudo su - opetaja
+   99  sudo su - joosep
+  100  sudo su - opetaja
+  101  sudo su - joosep
+  102  sudo su - jukuisa
+  103  cd /tmp/yhiskaust
+  104  ls
+  105  sudo su - root
+  106  cd ..
+  107  sudo addgroup direktor
+  108  sudo adduser peeter
+  109  sudo adduser peeter direktor
+  110  id peeter
+  111  detfacl hinded.txt
+  112  getfacl hinded.txt
+  113  cd /opetaja
+  114  cd klass
+  115  sudo cd klass
+  116  sudo su - opetaja
+  117  sudo su - peeter
+  118  sudo su - opetaja
+  119  echo "see on oluline info" >> testfail-2
+  120  sudo echo "see on oluline info" >> testfail-2
+  121  history >> history.txt
+  122  history
+  123  sudo history >> history.txt
+  124  nano history.txt
+  125  ls
+  126  sudo history >> history.txt
+  127  nano history.txt
+  128  ls
+  129  cd /tmp
+  130  echo "See on oluline info" >> testfail-2
+  131  sudo chattr +i testfail-2
+  132  lsattr testfail-2
+  133  rm testfail-2
+  134  sudo rm testfail-2
+  135  rm -i testfail-2
+  136  chattr -i testfail-2
+  137  sudo chattr -i testfail-2
+  138  rm testfail-2
+  139  history >> history.txt
+  140  ls
+  141  cd Kaust1
+  142  cd ..
+  143  cd home
+  144  history >> history.txt
+  145  sudo history >> history.txt
+  146  cd Kaust1
+  147  ls
+  148  cd uku
+  149  ls
+  150  history >> history.txt\
+  151  history >> history.txt
