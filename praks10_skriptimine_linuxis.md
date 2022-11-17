@@ -1,6 +1,8 @@
 # Praktikum 10 - Skriptimine Linuxis
 Autor: Uku Tonsiver
 
+Kümnendas praktikumis õppisime skripte looma ja kasutama Linuxis. See on kasulik juhtudeks, kus on vaja käsureale anda keerulisemaid käske. Neil juhtudel saab siis kõige käsureale ridahaaval sisestamise asemel kirjutada valmis skriptifail ning see ühe käsuga käivitada.
+
 Praktikumi ülesannete lahendused:
 
 3. Skripitfaili nimi on esimene.sh
