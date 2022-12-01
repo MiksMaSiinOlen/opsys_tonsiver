@@ -1,9 +1,9 @@
 # Praktikum 12 - Azure VM ja WSL
 Autor: Uku Tonsiver
 
-Vastused praktikumi küsimustele:
+12ndas praktikumis tutvusime Microsoft Azure pilveteenusega ja võimalusega virtuaalmasina pilves hoiustada. Praktikumi teises pooles tutvusine WSL-iga, mis võimaldab Windowsi masinas Unixi terminali kasutada. Enne praktikumi ma ei teadnud, et pilveteenustega nii palju veel peale lihtsalt andmete hoidmise teha saab (näiteks virtuaalmasinat jooksutada). See oli huvitav uus teadmine.
 
-A
+Vastused praktikumi küsimustele:
 
 1. Kolm suurimat pilveteenuste pakkujat on Amazon Web Services, Microsoft Azure ja Google Cloud Platform.
 
